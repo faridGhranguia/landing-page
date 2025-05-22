@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --darkBg: #1F2937;
+    --lightGrey: #E5E7EB;
+    --white: #FFFFFF;
+    --blue: #3882F6;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER FOOTER */
+header, footer {
+    background-color: var(--darkBg);
+}
